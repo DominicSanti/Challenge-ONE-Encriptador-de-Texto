@@ -20,13 +20,54 @@
 
         <header>
 
-           
+           <div>
+
+                <h1>
+
+                    <a href="index.html">Encriptador de Texto</a>
+
+                </h1>
+
+           </div>
 
         </header>
 
         <main>
 
-            
+            <section class="entrada-texto">
+
+                <form>
+
+                    <label for="texto-ingresado"></label>
+                    <input type="text" id="texto-ingresado" style="text-transform:lowercase;" placeholder="Ingrese el texto aquí" required>
+
+                </form>
+
+                <p class="aviso-caracteres">No utilice acentos o caracteres especiales</p>
+
+            </section>
+
+            <section class="salida-texto">
+
+                <form>
+
+                    <label for="texto-salida"></label>
+                    <input type="text" id="texto-salida" readonly>
+
+                </form>
+
+            </section>
+
+            <section class="botones">
+
+                <form>
+
+                    <input type="button" value="Encriptar" class="boton-encriptar">
+                    <input type="button" value="Desencriptar" class="boton-desencriptar">
+
+                </form>
+
+            </section>
 
         </main>
         
