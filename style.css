@@ -1,0 +1,106 @@
+header{
+    background-color:#437C90;
+    padding:4vw 0;
+}
+
+nav{
+    width:90%;
+    margin:0 auto;
+}
+
+h1 a{
+    font-size:6vw;
+    text-decoration:none;
+    color:#FFFFFF;
+    font-weight:bold;
+    display:inline;
+}
+
+main{
+    background-color:#EEEBD3;
+    padding:5vw 0;
+}
+
+.entrada-texto{
+    width:90%;
+    margin:0 auto;
+    padding-bottom:3vw;
+}
+
+.entrada-texto form{
+    padding:1vw 0;
+}
+
+.entrada-texto form textarea{
+    background-color:#EEEBD3;
+    border:none;
+    border-radius:3vw;
+    padding:3vw 2vw;
+    font-size:4vw;
+}
+
+.entrada-texto form textarea:active{
+    border:none;
+}
+
+.entrada-texto p{
+    font-size:3vw;
+}
+
+.salida-texto{
+    width:90%;
+    margin:0 auto;
+}
+
+.botones{
+    width:90%;
+    margin:0 auto;
+    padding:3vw 0;
+}
+
+.botones form{
+    position:absolute;
+    top:80vw;
+}
+
+.botones input{
+    background-color:#437C90;
+    padding:2vw 3vw;
+    font-size:3vw;
+    border:none;
+    border-radius:2.5vw;
+    color:#FFFFFF;
+}
+
+.botones input:hover{
+    background-color:#A98743;
+}
+
+
+footer{
+    background-color:#437C90;
+    padding:10vw 0;
+}
+
+.contacto{
+    width:40%;
+    margin:0 auto;
+}
+
+.contacto li{
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+.redes-sociales{
+    width:40%;
+    margin:0 auto;
+}
+
+.redes-sociales li img{
+    width:30px;
+}
+
+.dato-ultimo{
+    text: size 0.5vw;        
+}
