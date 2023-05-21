@@ -83,6 +83,10 @@ main{
     color:#FFFFFF;
 }
 
+.salida-texto input:hover{
+    background-color:#A98743;
+}
+
 .botones{
     width:90%;
     margin:0 auto;
@@ -96,7 +100,7 @@ main{
 
 .botones input{
     background-color:#437C90;
-    padding:2vw 3vw;
+    padding:2vw 4vw;
     font-size:5vw;
     border:none;
     border-radius:2.5vw;
@@ -107,8 +111,10 @@ main{
     background-color:#A98743;
 }
 
-.boton-encriptar{
-    padding:2vw 10vw;
+.botones .boton-encriptar{
+    padding:2vw 8.5vw;
+    margin-right:3vw;
+    font-size:5vw;
 }
 
 
@@ -119,12 +125,12 @@ footer{
 }
 
 .contacto{
-    width:90%;
+    width:80%;
     margin:0 auto;
 }
 
 footer .logo-blanco{
-    width:40%;
+    width:30%;
     margin:0 auto;
 }
 
@@ -137,12 +143,20 @@ footer .logo-blanco{
     width:50%;
     display:inline-block;
     vertical-align:top;
+    margin-left:5vw;
+}
+
+.informacion-contacto h3{
+    color:#FFFFFF;
+    font-size:3.5vw;
+    font-weight:bold;
+    padding-bottom:2vw;
 }
 
 .informacion-contacto li{
     text-decoration:none;
     color:#FFFFFF;
-    font-size:4.5vw;
+    font-size:3vw;
 }
 
 .informacion-contacto .nombre{
@@ -151,6 +165,7 @@ footer .logo-blanco{
 
 .informacion-contacto .titular{
     font-weight:bold;
+    padding-bottom:0.5vw;
 }
 
 .redes-sociales{
@@ -158,16 +173,20 @@ footer .logo-blanco{
     display:inline;
     margin:22vw 0 0 0;
     position:absolute;
-    left:32vw;
+    left:41vw;
 }
 
 .redes-sociales li{
     display:inline;
-    padding:2vw 0 0 2vw;
+    padding:2vw 1vw 0 2vw;
 }
 
 .redes-sociales li img{
-    width:9vw;
+    width:7vw;
+}
+
+.info-redes{
+    display:none;
 }
 
 .dato-ultimo{
@@ -176,5 +195,562 @@ footer .logo-blanco{
     padding-top:8vw;
     color:#FFFFFF;
     text-align:center;
-    font-size:3vw;        
+    font-size:2.5vw;        
+}
+
+
+/* CSS responsive para dispositivos moviles y tablets de 480px a 767px*/
+@media only screen and (max-width:768px) and (min-width:480px){
+
+    nav{
+        width:80%;
+    }
+
+    .logo{
+        width:10vw;
+    }
+
+    .entrada-texto{
+        width:80%;
+    }
+
+    .entrada-texto form{
+        padding:0 0 2vw 0;
+    }
+
+    .entrada-texto form textarea{
+        font-size:4vw;
+    }
+
+    .entrada-texto p{
+        font-size:3vw;
+    }
+
+    .salida-texto{
+        width:80%;
+        margin-top:10vw;
+    }
+
+    .salida-texto .imagen-robot{
+        margin:0 20vw;
+    }
+
+    .salida-texto h3{
+        font-size:9vw;
+    }
+
+    .salida-texto p{
+        font-size:4vw;
+    }
+
+    .salida-texto input{
+        margin-left:60vw;
+        font-size:3.5vw;
+    }
+
+    .botones{
+        width:80%;
+    }
+
+    .botones form{
+        top:76vw;
+    }
+
+    .botones input{
+        font-size:3.5vw;
+        padding:2vw 5vw;
+    }
+
+    .botones .boton-encriptar{
+        padding:2vw 8vw;
+        margin-right:3vw;
+        font-size:3.5vw;
+    }
+
+    .contacto{
+        width:80%;
+    }
+
+    footer .logo-blanco{
+        width:30%;
+    }
+
+    .informacion-contacto{
+        width:50%;
+        margin-left:10vw;
+    }
+
+    .informacion-contacto h3{
+        font-size:2.8vw;
+    }
+
+    .informacion-contacto li{
+        font-size:2.5vw;
+    }
+
+    .redes-sociales{
+        margin-top:20vw;
+        left:46vw;
+    }
+
+    .redes-sociales li img{
+        width:6vw;
+    }
+
+    .dato-ultimo{
+        padding-top:4vw;
+        font-size:2vw;
+    }
+
+}
+
+
+/* CSS responsive para pantallas con resolución de 768px a 1023px*/
+@media only screen and (max-width:1024px) and (min-width:768px){
+
+    nav{
+        width:80%;
+    }
+
+    .logo{
+        width:8vw;
+    }
+
+    .entrada-texto{
+        width:45%;
+        display:inline-block;
+        margin:0 10vw 0 5vw;
+        vertical-align:top;
+        padding-bottom:1vw;
+    }
+
+    .entrada-texto form textarea{
+        font-size:2.5vw;
+    }
+
+    .entrada-texto p{
+        font-size:2vw;
+    }
+
+    .salida-texto{
+        width:30%;
+        display:inline-block;
+        margin:0;
+        padding:1vw 2vw;
+    }
+
+    .salida-texto .imagen-robot{
+        width:22vw;
+        margin:0 2.5vw;
+    }
+
+    .salida-texto h3{
+        padding:2vw 0;
+        font-size:4vw;
+    }
+
+    .salida-texto p{
+        font-size:2.5vw;
+        padding-bottom:3vw;
+    }
+
+    .salida-texto input{
+        margin:0;
+        padding:1.5vw 3vw;
+        font-size:2vw;
+        margin-left:18vw;
+    }
+
+    .botones{
+        width:90%;
+        padding:0;
+        padding-bottom:2vw;
+    }
+
+    .botones form{
+        top:55vw;
+    }
+
+    .botones input{
+        padding:1.5vw 3vw;
+        font-size:2.5vw;
+    }
+    
+    .botones .boton-encriptar{
+        padding:1.5vw 5vw;
+        font-size:2.5vw;
+    }
+
+    footer{
+        padding:3vw 0;
+    }
+
+    .contacto{
+        width:70%;
+    }
+
+    footer .logo-blanco{
+        width:30%;
+    }
+
+    .logo-inferior{
+        width:17vw;
+    }
+
+    .informacion-contacto{
+        margin-left:17vw;
+    }
+
+    .informacion-contacto h3{
+        font-size:2.1vw;
+        padding-bottom:1vw;
+    }
+
+    .informacion-contacto li{
+        font-size:2vw;
+    }
+
+    .informacion-contacto .nombre{
+        padding-bottom:1vw;
+    }
+
+    .informacion-contacto .titular{
+        padding-bottom:0.3vw;
+    }
+
+    .redes-sociales{
+        margin:13.5vw 0 0 0;
+        left:47.5vw;
+    }
+
+    .redes-sociales li img{
+        width:4vw;
+    }
+
+    .dato-ultimo{
+        width:80%;
+        padding-top:3vw;
+        font-size:1.5vw;
+    }
+
+}
+
+
+/* CSS responsive para pantallas con resolución de 1024px a 1365px*/
+@media only screen and (max-width:1366px) and (min-width:1024px){
+
+    header{
+        padding:0;
+        padding-top:1vw;
+    }
+
+    nav{
+        width:80%;
+    }
+
+    .logo{
+        width:6vw;
+    }
+
+    .entrada-texto{
+        width:40%;
+        display:inline-block;
+        margin:0 8vw 0 10vw;
+        vertical-align:top;
+        padding-bottom:1vw;
+    }
+
+    .entrada-texto form textarea{
+        font-size:2vw;
+        padding:1vw 2vw;
+        border-radius:2vw;
+    }
+
+    .entrada-texto p{
+        font-size:1.5vw;
+        padding-top:10vw;
+    }
+
+    .salida-texto{
+        width:30%;
+        display:inline-block;
+        margin:0;
+        padding:1vw 2vw;
+    }
+
+    .salida-texto .imagen-robot{
+        width:18vw;
+        margin:1vw 5vw;
+    }
+
+    .salida-texto h3{
+        padding:2.5vw 0;
+        font-size:3.5vw;
+    }
+
+    .salida-texto p{
+        font-size:2vw;
+        padding-bottom:4vw;
+    }
+
+    .salida-texto input{
+        margin:0;
+        padding:1.7vw 3vw;
+        font-size:1.5vw;
+        margin-left:20vw;
+    }
+
+    .botones{
+        width:80%;
+        padding:0;
+        padding-bottom:2vw;
+    }
+
+    .botones form{
+        top:48vw;
+    }
+
+    .botones input{
+        padding:1.5vw 3vw;
+        font-size:2vw;
+    }
+    
+    .botones .boton-encriptar{
+        padding:1.5vw 5vw;
+        font-size:2vw;
+    }
+
+    footer{
+        padding:3vw 0;
+    }
+
+    .contacto{
+        width:80%;
+    }
+
+    footer .logo-blanco{
+        width:15%;
+    }
+
+    .logo-inferior{
+        width:15vw;
+    }
+
+    .informacion-contacto{
+        width:20%;
+        padding-left:8vw;
+    }
+
+    .informacion-contacto h3{
+        font-size:1.6vw;
+        padding:2vw 0;
+    }
+
+    .informacion-contacto li{
+        font-size:1.5vw;
+    }
+
+    .informacion-contacto .nombre{
+        padding-bottom:1.5vw;
+    }
+
+    .informacion-contacto .titular{
+        padding-bottom:0.6vw;
+    }
+
+    .redes-sociales{
+        width:5%;
+        margin:0;
+        margin-top:0.5vw;
+        position:absolute;
+        left:70vw
+    }
+
+    .redes-sociales li img{
+        width:3.5vw;
+        padding:0.6vw 0;
+    }
+
+    .info-redes{
+        width:20%;
+        display:inline;
+        position:absolute;
+        color:#FFFFFF;
+        font-size:1.5vw;
+        margin-top:2.3vw;
+        right:3.5vw;
+    }
+
+    .info-redes li{
+        display:flex;
+        padding-bottom:3.3vw;
+    }
+
+    .dato-ultimo{
+        width:80%;
+        padding-top:3vw;
+        font-size:1vw;
+    }
+
+}
+
+
+/* CSS responsive para pantallas con resolución superior de 1366px */
+@media only screen and (min-width:1366px){
+
+    header{
+        padding:0;
+        padding-top:1vw;
+    }
+
+    nav{
+        width:80%;
+    }
+
+    .logo{
+        width:4vw;
+    }
+
+    .entrada-texto{
+        width:40%;
+        display:inline-block;
+        margin:0 8vw 0 10vw;
+        vertical-align:top;
+        padding-bottom:1vw;
+    }
+
+    .entrada-texto form textarea{
+        font-size:1.3vw;
+        padding:1vw 2vw;
+        border-radius:2vw;
+    }
+
+    .entrada-texto p{
+        font-size:1vw;
+        padding-top:12vw;
+    }
+
+    .salida-texto{
+        width:30%;
+        display:inline-block;
+        margin:0;
+        padding:1vw 2vw;
+    }
+
+    .salida-texto .imagen-robot{
+        width:15vw;
+        margin:1vw 6.5vw;
+    }
+
+    .salida-texto h3{
+        padding:2vw 0;
+        font-size:3vw;
+    }
+
+    .salida-texto p{
+        font-size:1.3vw;
+        padding-bottom:3vw;
+    }
+
+    .salida-texto input{
+        margin:0;
+        padding:1vw 2vw;
+        font-size:1.3vw;
+        margin:1vw 0;
+        margin-left:22vw;
+    }
+
+    .botones{
+        width:80%;
+        padding:0;
+        padding-bottom:1vw;
+    }
+
+    .botones form{
+        top:40vw;
+    }
+
+    .botones input{
+        padding:1vw 2.5vw;
+        font-size:1.5vw;
+    }
+    
+    .botones .boton-encriptar{
+        padding:1vw 4vw;
+        font-size:1.5vw;
+    }
+
+    footer{
+        padding:2vw 0 1vw 0;
+    }
+
+    .contacto{
+        width:80%;
+    }
+
+    footer .logo-blanco{
+        width:15%;
+    }
+
+    .logo-inferior{
+        width:8.5vw;
+    }
+
+    .informacion-contacto{
+        width:20%;
+        padding-left:15vw;
+    }
+
+    .informacion-contacto h3{
+        font-size:1vw;
+        padding:0.5vw 0;
+        padding-bottom:1vw;
+    }
+
+    .informacion-contacto li{
+        font-size:1vw;
+    }
+
+    .informacion-contacto .nombre{
+        padding-bottom:1vw;
+    }
+
+    .informacion-contacto .titular{
+        padding-bottom:0.2vw;
+    }
+
+    .redes-sociales{
+        width:5%;
+        margin:0;
+        margin-top:0.8vw;
+        position:absolute;
+        left:68vw
+    }
+
+    .redes-sociales li img{
+        width:2vw;
+        padding:0.25vw 0;
+    }
+
+    .info-redes{
+        width:20%;
+        display:inline;
+        position:absolute;
+        color:#FFFFFF;
+        font-size:1vw;
+        margin-top:1.5vw;
+        right:6.5vw;
+    }
+
+    .info-redes li{
+        display:flex;
+        padding-bottom:1.6vw;
+    }
+
+    .dato-ultimo{
+        width:80%;
+        padding-top:2vw;
+        font-size:0.8vw;
+    }
+
 }
