@@ -33,7 +33,7 @@
         </header>
 
         <main>
-
+            
             <section class="entrada-texto">
 
                 <form>
@@ -48,10 +48,20 @@
 
             <section class="salida-texto">
 
-                <a><img src="images/Robot.png" alt="Imagen que no se detecta ningún mensaje" class="imagen-robot"></a>
+                <div id="salida-texto">
+
+                    <a><img src="images/Robot.png" alt="Imagen que no se detecta ningún mensaje" class="imagen-robot"></a>
                 
-                <h3>OOOPS!</h3>
-                <p>No se ha detectado ningún mensaje</p>
+                    <h3>OOOPS!</h3>
+                    <p>No se ha detectado ningún mensaje</p>
+
+                </div>
+
+                <div class="mostrar-resultado" id="mostrar">
+
+                    <label id="mostrar-resultado"></label>
+
+                </div>
 
                 <input type="button" value="Copiar" class="boton-copiar">
 
@@ -61,12 +71,16 @@
 
                 <form>
 
-                    <input type="button" value="Encriptar" class="boton-encriptar">
-                    <input type="button" value="Desencriptar" class="boton-desencriptar">
+                    <input type="button" value="Encriptar" class="boton-encriptar" onclick="encriptartexto()">
+                    <input type="button" value="Desencriptar" class="boton-desencriptar" onclick="desencriptartexto()">
 
                 </form>
 
             </section>
+
+            <script lang="JavaScript" src="script.js">
+
+            </script>
 
         </main>
         

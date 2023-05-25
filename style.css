@@ -73,6 +73,15 @@ main{
     text-align:center;
 }
 
+.salida-texto .mostrar-resultado{
+    display:none;
+    margin-bottom:15vw;
+}
+
+.salida-texto .mostrar-resultado label{
+    font-size:5.5vw;
+}
+
 .salida-texto input{
     background-color:#437C90;
     padding:2vw 3vw;
@@ -243,6 +252,14 @@ footer .logo-blanco{
         font-size:4vw;
     }
 
+    .salida-texto .mostrar-resultado{
+        margin-bottom:20vw;
+    }
+    
+    .salida-texto .mostrar-resultado label{
+        font-size:4.75vw;
+    }
+
     .salida-texto input{
         margin-left:60vw;
         font-size:3.5vw;
@@ -319,7 +336,7 @@ footer .logo-blanco{
     .entrada-texto{
         width:45%;
         display:inline-block;
-        margin:0 10vw 0 5vw;
+        margin:0 10vw 9vw 5vw;
         vertical-align:top;
         padding-bottom:1vw;
     }
@@ -352,6 +369,15 @@ footer .logo-blanco{
     .salida-texto p{
         font-size:2.5vw;
         padding-bottom:3vw;
+    }
+
+    .salida-texto .mostrar-resultado{
+        margin-top:2.5vw;
+        margin-bottom:20vw;
+    }
+    
+    .salida-texto .mostrar-resultado label{
+        font-size:2.8vw;
     }
 
     .salida-texto input{
@@ -455,7 +481,7 @@ footer .logo-blanco{
     .entrada-texto{
         width:40%;
         display:inline-block;
-        margin:0 8vw 0 10vw;
+        margin:0 8vw 5vw 10vw;
         vertical-align:top;
         padding-bottom:1vw;
     }
@@ -491,6 +517,15 @@ footer .logo-blanco{
     .salida-texto p{
         font-size:2vw;
         padding-bottom:4vw;
+    }
+
+    .salida-texto .mostrar-resultado{
+        margin-top:1vw;
+        margin-bottom:20vw;
+    }
+    
+    .salida-texto .mostrar-resultado label{
+        font-size:2.3vw;
     }
 
     .salida-texto input{
@@ -604,7 +639,7 @@ footer .logo-blanco{
     }
 
     nav{
-        width:80%;
+        width:70%;
     }
 
     .logo{
@@ -612,11 +647,12 @@ footer .logo-blanco{
     }
 
     .entrada-texto{
-        width:40%;
+        width:30%;
         display:inline-block;
-        margin:0 8vw 0 10vw;
+        margin:0 10vw 0 15vw;
         vertical-align:top;
         padding-bottom:1vw;
+        margin-bottom:6vw;
     }
 
     .entrada-texto form textarea{
@@ -652,6 +688,15 @@ footer .logo-blanco{
         padding-bottom:3vw;
     }
 
+    .salida-texto .mostrar-resultado{
+        margin-top:1vw;
+        margin-bottom:20vw;
+    }
+    
+    .salida-texto .mostrar-resultado label{
+        font-size:1.5vw;
+    }
+
     .salida-texto input{
         margin:0;
         padding:1vw 2vw;
@@ -661,7 +706,7 @@ footer .logo-blanco{
     }
 
     .botones{
-        width:80%;
+        width:70%;
         padding:0;
         padding-bottom:1vw;
     }
@@ -685,7 +730,7 @@ footer .logo-blanco{
     }
 
     .contacto{
-        width:80%;
+        width:70%;
     }
 
     footer .logo-blanco{
@@ -698,7 +743,7 @@ footer .logo-blanco{
 
     .informacion-contacto{
         width:20%;
-        padding-left:15vw;
+        padding-left:14vw;
     }
 
     .informacion-contacto h3{
