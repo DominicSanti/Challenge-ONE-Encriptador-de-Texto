@@ -217,6 +217,11 @@ footer .logo-blanco{
     display:none;
 }
 
+.info-redes a{
+    color:#FFFFFF;
+    text-decoration:none;
+}
+
 .dato-ultimo{
     width:90%;
     margin:0 auto;
