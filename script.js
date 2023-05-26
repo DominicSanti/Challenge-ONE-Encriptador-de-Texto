@@ -41,3 +41,27 @@ function desencriptartexto(){
     mostrartexto.innerHTML=textosalida;
 
 }
+
+var mensaje=document.querySelector("#mostrar-resultado");
+
+function copiartexto(mensaje){
+
+    var copiar=document.createElement("input");
+
+    copiar.setAttribute("value", mensaje.innerText);
+    document.body.appendChild(copiar);
+    copiar.select();
+    document.execCommand('copy');
+    document.body.removeChild(copiar);
+
+    document.getElementById("copiado-alerta").style.transitionDuration="700ms";
+    document.getElementById("copiado-alerta").style.opacity="1";
+
+    setTimeout(()=>{
+
+        document.getElementById("copiado-alerta").style.transitionDuration="700ms";
+        document.getElementById("copiado-alerta").style.opacity="0";
+
+    },1000);
+
+}
