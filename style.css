@@ -43,7 +43,7 @@ main{
 }
 
 .entrada-texto p{
-    font-size:3vw;
+    font-size:2.5vw;
 }
 
 .entrada-texto p em{
@@ -132,7 +132,7 @@ main{
 
 .botones form{
     position:absolute;
-    top:76vw;
+    top:77vw;
 }
 
 .botones input{
