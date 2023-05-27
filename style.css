@@ -42,6 +42,11 @@ main{
     font-size:3.5vw;
 }
 
+.entrada-texto p em{
+    font-weight:400;
+    color:#FF2222;
+}
+
 .salida-texto{
     width:90%;
     margin:0 auto;
